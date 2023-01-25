@@ -9,9 +9,15 @@ namespace CvEntityProje
 {
     public partial class Default : System.Web.UI.Page
     {
+
+        DBCVENTITYEntities1 db = new DBCVENTITYEntities1();
         protected void Page_Load(object sender, EventArgs e)
         {
+            Repeater1.DataSource = db.TBLHAKKIMDA.ToList();
+            Repeater1.DataBind();
 
+            Repeater2.DataSource = db.TBLHAKKIMDA.ToList();
+            Repeater2.DataBind();
         }
     }
 }
