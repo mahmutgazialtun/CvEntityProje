@@ -18,5 +18,6 @@ namespace CvEntityProje
         public string BILGILER { get; set; }
         public string EGITIM { get; set; }
         public string ISDENEYIMLERI { get; set; }
+        public string UNVAN { get; set; }
     }
 }
