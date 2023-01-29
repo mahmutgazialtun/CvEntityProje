@@ -7,12 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace CvEntityProje
 {
-    public partial class Deneyimler : System.Web.UI.Page
+    public partial class Iletişim : System.Web.UI.Page
     {
-        DBCVENTITYEntities1 db = new DBCVENTITYEntities1();
         protected void Page_Load(object sender, EventArgs e)
         {
-            Repeater1.DataSource = db.TBLHAKKIMDA.ToList();
+            DBCVENTITYEntities1 db = new DBCVENTITYEntities1();
+
+            var mesajlar = db.TBLILETISIM.ToList();
+            Repeater1.DataSource = mesajlar;
             Repeater1.DataBind();
         }
     }

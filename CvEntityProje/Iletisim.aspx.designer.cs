@@ -11,7 +11,7 @@ namespace CvEntityProje
 {
 
 
-    public partial class Deneyimler
+    public partial class Iletişim
     {
 
         /// <summary>

@@ -76,7 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="DeneyimGuncelle.aspx" />
     <Content Include="Deneyimler.aspx" />
+    <Content Include="EgitimGuncelle.aspx" />
+    <Content Include="EgitimHayatim.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="MesajDetay.aspx" />
     <Content Include="YeniYetenek.aspx" />
     <Content Include="YetenekGuncelle.aspx" />
     <Content Include="Yeteneklerim.aspx" />
@@ -119,12 +124,47 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeneyimGuncelle.aspx.cs">
+      <DependentUpon>DeneyimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeneyimGuncelle.aspx.designer.cs">
+      <DependentUpon>DeneyimGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Deneyimler.aspx.cs">
       <DependentUpon>Deneyimler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Deneyimler.aspx.designer.cs">
       <DependentUpon>Deneyimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EgitimGuncelle.aspx.cs">
+      <DependentUpon>EgitimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EgitimGuncelle.aspx.designer.cs">
+      <DependentUpon>EgitimGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EgitimHayatim.aspx.cs">
+      <DependentUpon>EgitimHayatim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EgitimHayatim.aspx.designer.cs">
+      <DependentUpon>EgitimHayatim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="YeniYetenek.aspx.cs">
       <DependentUpon>YeniYetenek.aspx</DependentUpon>
